@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(6, 27, 57);
+    color: azure;
+}
+#logo{
+    height: 60px;
+    width: 40%;
+    text-shadow: 0.5;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+.image{
+    margin:5px;
+    cursor: pointer;
+}
+.image:hover{
+    margin: 0;
+}
+#container-header{
+    height: 60px;
+    background-color: rgb(4, 4, 39);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.click{
+    cursor: pointer;
+}
+.click:hover{
+    border-bottom: 2px solid white;
+}
+.click:active{
+    color: black;
+    background-color: aliceblue;
+    border: none;
+}
+#main-image{
+    height:600px;
+    position: relative;
+    float: right;
+    display: flex;
+    margin: 0;
+}
+.hello{
+    color: rgb(222, 237, 16);
+    font-size:5rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.description{
+    color: aquamarine;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+.contacts{
+    color: rgb(226, 95, 43);
+    font-size: 1em;display: flex;
+    justify-content: center;
+}
+#container-footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+ color: rgb(125, 128, 127);
+}
